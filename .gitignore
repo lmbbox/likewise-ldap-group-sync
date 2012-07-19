@@ -1,0 +1,27 @@
+#################
+# Global Ignore #
+#################
+
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+###################
+# Project Ignores #
+###################
+
+group.d/*
+!group.d/.example
+
+#####################
+# Global Exceptions #
+#####################
+
+!.htaccess
+!.gitignore

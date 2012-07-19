@@ -1,0 +1,4 @@
+# LDAP Group Membership Sync Config
+ADGROUP=Linux^Admins
+LOCALGROUP=admin
+DEFAULTUSERS=usera,userb
