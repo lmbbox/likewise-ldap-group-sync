@@ -25,7 +25,7 @@ root=$(dirname $(readlink -f $0))
 
 
 # Read config file and assign values
-for file in $root/group.d*
+for file in $root/group.d/*
 do
 	source $file
 	echo $file
